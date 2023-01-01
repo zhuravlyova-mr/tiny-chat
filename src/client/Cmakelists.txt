@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.14)	
+
+project(tiny_client)
+
+set(source_exec main.cpp)	
+
+set(source_lib_client client.cpp)	
+
+set(source_lib_parser parser.cpp)	
+
+add_library(client STATIC ${source_lib_client})
+
+add_library(parser STATIC ${source_lib_parser})
+
+add_executable(main ${source_exec})	
+
+target_link_libraries(main client parser)
