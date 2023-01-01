@@ -14,7 +14,7 @@ There is a simple json parser (parser.cpp, parser.h) that is used to parse and u
 <p>cmake --build .</p>
 <p>You can find the main.exe in /build/debug directory</p>
 <p>Usage: main.exe port</p>
-<p>Example of usage: main.exe 9090 </p>
+<p>Example of usage: main.exe 10010 </p>
 <p>To create executable for client code clone the repository and do next steps:</p>
 <p>cd /src/client</p>
 <p>mkdir build</p>
@@ -23,4 +23,4 @@ There is a simple json parser (parser.cpp, parser.h) that is used to parse and u
 <p>cmake --build .</p>
 <p>You can find the main.exe in /build/debug directory</p>
 <p>Usage: main.exe port IP-address, server must be already executed</p>
-<p>Example of usage: main.exe 9090 127.0.0.1</p>
+<p>Example of usage: main.exe 10010 127.0.0.1</p>
